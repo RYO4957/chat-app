@@ -1,6 +1,22 @@
 <div class="side_bar">
   <div class = "header_side">
+    <div class = "user_name">
+      <%= link_to "Tom", '/index', class: 'user_name_btn' %>
+    </div>
+    <div class = "create_chat_room">
+      <%= link_to "チャットを作成する", '/index', class: 'create_chat_room_btn' %>
+    </div>
   </div>
   <div class = "side_area">
+    <div class="room">
+      <div class="room-name">
+        <%= link_to "room1", '/index', class: 'room_name_btn' %>
+      </div>
+    </div>
+    <div class="room">
+      <div class="room-name">
+        <%= link_to "room2", '/index', class: 'room_name_btn' %>
+      </div>
+    </div>
   </div>
 </div>
