@@ -1,7 +1,7 @@
 <div class="side_bar">
   <div class = "header_side">
     <div class = "user_name">
-      <%= link_to "Tom", '/index', class: 'user_name_btn' %>
+      <%= link_to current_user.name, edit_user_path(current_user), class: 'user_name_btn' %>
     </div>
     <div class = "create_chat_room">
       <%= link_to "チャットを作成する", '/index', class: 'create_chat_room_btn' %>
