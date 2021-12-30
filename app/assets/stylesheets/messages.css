@@ -129,12 +129,6 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
-}
-
-.chat_send_area{
-  height: 90px;
-  background-color: #dddddd;
-  padding: 20px 40px 20px 40px;
   display: flex;
 }
 
